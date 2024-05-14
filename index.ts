@@ -442,7 +442,7 @@ if (process.argv.includes('--no-whitelist')) {
     console.warn('WARN: ####################################')
     console.log()
     console.warn('WARN: Disabling the whitelist allows ANYONE to create/delete/kill ANY Docker container!')
-    console.warn('WARN: This has MAJOR security implications, CTRL+C NOW if this was unintentional.')
+    console.warn('WARN: This has MAJOR security implications, press CTRL+C NOW if this was unintentional.')
 }
 
 function removeKeepalive(id:string) {
